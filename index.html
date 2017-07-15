@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Robot</title>
+  <link rel="stylesheet" href="http://at.alicdn.com/t/font_57c3ecrko67s0pb9.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+  <div id="header">
+    <div class="button">
+      <i class="iconfont icon-back"></i>
+    </div>
+    <div class="button finished pull-right">
+      完成
+    </div>
+    <div class="button pull-right do">
+      <i class="iconfont icon-redo"></i>
+    </div>
+    <div class="button pull-right do">
+      <i class="iconfont icon-undo"></i>
+    </div>
+  </div>
+  <div id="content">
+    <div id="time-line">
+      <span class="time-line-title pull-left">时间轴</span>
+      <span class="ball pull-left"></span>
+      <div class="time-line-point">
+        <span class="point text pull-right">
+          00:05
+        </span>
+      </div>
+      <div class="time-line-point">
+        <span class="point text pull-right">
+          00:10
+        </span>
+      </div>
+      <div class="time-line-point">
+        <span class="point text pull-right">
+          00:15
+        </span>
+      </div>
+      <div class="time-line-point">
+        <span class="point text pull-right">
+          00:20
+        </span>
+      </div>
+      <div class="time-line-point">
+        <span class="point text pull-right">
+          00:25
+        </span>
+      </div>
+      <div class="time-line-point">
+        <span class="point text pull-right">
+          00:30
+        </span>
+      </div>
+      <div class="time-line-point">
+        <span class="point text pull-right">
+          00:35
+        </span>
+      </div>
+      <div class="time-line-point">
+        <span class="point text pull-right">
+          00:40
+        </span>
+      </div>
+    </div>
+    <div id="head" class="handle-panel">
+      <div class="panel-title">
+        头
+      </div>
+      <i class="iconfont icon-add panel-button"></i>
+    </div>
+    <div id="left_arm" class="handle-panel">
+      <div class="panel-title">
+        左臂
+      </div>
+      <i class="iconfont icon-add panel-button"></i>
+    </div>
+    <div id="right_arm" class="handle-panel">
+      <div class="panel-title">
+        右臂
+      </div>
+      <i class="iconfont icon-add panel-button"></i>
+    </div>
+    <div id="left_wheel" class="handle-panel">
+      <div class="panel-title">
+        左轮
+      </div>
+      <i class="iconfont icon-add panel-button"></i>
+    </div>
+    <div id="right_wheel" class="handle-panel">
+      <div class="panel-title">
+        右轮
+      </div>
+      <i class="iconfont icon-add panel-button"></i>
+    </div>
+  </div>
+  <div id="footer">
+    <div class="player-time-line"></div>
+    <div class="player-button"></div>
+  </div>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+</html>

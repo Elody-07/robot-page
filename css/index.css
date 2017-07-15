@@ -1,0 +1,181 @@
+body,html {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#header {
+  height: 60px;
+  width: 100%;
+  background: #fff;
+  padding-left: 45px;
+  padding-right: 45px; 
+  padding-top: 15px;
+}
+
+.button {
+  background: rgb(83,103,255);
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.button.finished {
+  width: 80px;
+}
+
+.do {
+  margin-right: 45px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+/* 以下是时间轴 */
+
+#content {
+  padding-left: 45px;
+  background: #eee;
+  height: 350px;
+}
+
+#time-line {
+  height: 30px;
+  line-height: 30px;
+}
+
+.time-line-title {
+  color: #8c8c8c;
+  width: 45px;
+  font-size: 14px;s
+}
+
+.ball {
+  height: 10px;
+  width: 10px;
+  border-radius: 6px;
+  background: #8c8c8c;
+  margin-top: 11px;
+  margin-left: 15px;
+}
+
+.time-line-point {
+  width: 10%;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+
+.point.text {
+  position: relative;
+  text-align: right;
+  padding-left: 2px;
+  z-index: 1;
+  background: #eee;
+}
+
+.time-line-point::before {
+  content: '';
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  background: #8c8c8c;
+  top: 15px;
+  left: 0;
+}
+
+.handle-panel {
+  height: 60px;
+  line-height: 60px;
+  position: relative;
+}
+
+.panel-title {
+  color: rgb(83,103,255);
+  font-size: 16px;
+  width: 40px;
+  display: inline-block;
+}
+
+.panel-button {
+  color: rgb(83,103,255);
+  font-size: 28px;
+  position: absolute;
+  left: 50px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.panel-line {
+  position: absolute;
+  background: #b1b1b1;
+  border-radius: 8px;
+  height: 45px;
+  top: 6.5px;
+  z-index: 0;
+}
+
+.panel-button i {
+  font-size: 28px;
+}
+
+/* 底部进度条 */
+
+#footer {
+  height: 60px;
+  width: 100%;
+  background: #ddd;
+  padding-top: 29px;
+  position: relative;
+}
+
+.player-time-line {
+  width: 100%;
+  height: 2px;
+  background: #b1b1b1;
+}
+
+.player-button {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  background: #fff;
+  height: 30px;
+  width: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+.player-button::before {
+  content: '';
+  top: 3px;
+  left: 3px;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 14px;
+  background: rgb(83,103,255);
+  cursor: pointer;
+}
+
+
+
+
+
+

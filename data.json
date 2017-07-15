@@ -1,0 +1,301 @@
+{
+    "mp3":"apple.mp3",
+    "version":"0.0.1",
+    "dance": [
+        {
+            "time": "00:01 000",
+            "reset": false,
+            "head": {
+                "nod_action": 4,
+                "nod_angle": 30,
+                "nod_speed": 1
+            },
+            "left_arm": {
+                "side_action": 3,
+                "side_angle": 90,
+                "side_speed": 1
+            },
+            "right_arm": {
+                "side_action": 3,
+                "side_angle": 90,
+                "side_speed": 1
+            }
+        }, {
+            "time": "00:03 000",
+            "reset": true,
+            "head": {
+                "reset_nod":true,
+                "reset_shook":true
+            },
+            "left_arm": {
+                "reset_side":true,
+                "reset_around": true
+            },
+            "right_arm": {
+                "reset_side":true,
+                "reset_around": true
+            }
+        }, {
+            "time": "00:04 000",
+            "reset": false,
+            "head": {
+                "nod_action": 2,
+                "nod_angle": 30,
+                "nod_speed": 1
+            },
+            "left_arm": {
+                "around_action": 1,
+                "around_angle": 135,
+                "around_speed": 1
+            },
+            "right_arm": {
+                "around_action": 1,
+                "around_angle": 90,
+                "around_speed": 1
+            },
+            "left_wheel": {
+                "action": 1,
+                "speed": 0,
+                "time": 5000
+            }
+        }, {
+            "time": "00:06 000",
+            "reset": true,
+            "head": {
+                "reset_nod":true
+            },
+            "left_arm": {
+                "reset_around": true
+            },
+            "right_arm": {
+                "reset_around": true
+            }
+        }, {
+            "time": "00:07 000",
+            "reset": false,
+            "head": {
+                "nod_action": 2,
+                "nod_angle": 30,
+                "nod_speed": 1
+            },
+            "left_arm": {
+                "side_action": 1,
+                "side_angle": 90,
+                "side_speed": 1
+            },
+            "right_arm": {
+                "around_action": 2,
+                "around_angle": 45,
+                "around_speed": 4
+            },
+            "right_wheel": {
+                "action": 1,
+                "speed": 0,
+                "time": 2000
+            }
+        }, {
+            "time": "00:09 000",
+            "reset": true,
+            "head": {
+                "reset_nod":true
+            },
+            "left_arm": {
+                "reset_side": true
+            },
+            "right_arm": {
+                "reset_around": true
+            },
+            "left_wheel": {
+                "reset_run":true
+            },
+            "right_wheel": {
+                "reset_run":true
+            } 
+        }, {
+            "time": "00:10 000",
+            "reset": false,
+            "head": {
+                "nod_action": 2,
+                "nod_angle": 30,
+                "nod_speed": 1
+            },
+            "left_arm": {
+                "around_action": 1,
+                "around_angle": 90,
+                "around_speed": 1
+            },
+            "right_arm": {
+                "around_action": 1,
+                "around_angle": 135,
+                "around_speed": 1
+            },
+            "right_wheel": {
+                "action": 1,
+                "speed": 0,
+                "time": 5000
+            }
+        }, {
+            "time": "00:12 000",
+            "reset": true,
+            "head": {
+                "reset_nod":true
+            },
+            "left_arm": {
+                "reset_around": true
+            },
+            "right_arm": {
+                "reset_around": true
+            }
+        }, {
+            "time": "00:13 000",
+            "reset": false,
+            "head": {
+                "nod_action": 2,
+                "nod_angle": 30,
+                "nod_speed": 1
+            },
+            "left_arm": {
+                "around_action": 2,
+                "around_angle": 45,
+                "around_speed": 4
+            },
+            "right_arm": {
+                "side_action": 1,
+                "side_angle": 90,
+                "side_speed": 1
+            },
+            "left_wheel": {
+                "action": 1,
+                "speed": 0,
+                "time": 2000
+            }
+        }, {
+            "time": "00:15 000",
+            "reset": true,
+            "head": {
+                "reset_nod":true
+            },
+            "left_arm": {
+                "reset_around": true
+            },
+            "right_arm": {
+                "reset_side": true
+            },
+            "left_wheel": {
+                "reset_run":true
+            },
+            "right_wheel": {
+                "reset_run":true
+            } 
+        }, {
+            "time": "00:16 000",
+            "reset": false,
+            "head": {
+                "shook_action": 4,
+                "shook_angle": 120,
+                "shook_speed": 1
+            },
+            "left_arm": {
+                "around_action": 1,
+                "around_angle": 90,
+                "around_speed": 1,
+                "side_action": 3,
+                "side_angle": 90,
+                "side_speed": 1
+            },
+            "right_arm": {
+                "around_action": 1,
+                "around_angle": 90,
+                "around_speed": 1,
+                "side_action": 3,
+                "side_angle": 90,
+                "side_speed": 1
+            },
+            "left_wheel": {
+                "action": 0,
+                "speed": 0,
+                "time":500
+            },
+            "right_wheel": {
+                "action": 0,
+                "speed": 0,
+                "time":500
+            }
+        }, {
+            "time": "00:18 000",
+            "reset": true,
+            "head": {
+                "reset_shook":true
+            },
+            "left_arm": {
+                "reset_side":true,
+                "reset_around": true
+            },
+            "right_arm": {
+                "reset_side":true,
+                "reset_around": true
+            },
+            "left_wheel": {
+                "reset_run":true
+            },
+            "right_wheel": {
+                "reset_run":true
+            } 
+        }, {
+            "time": "00:19 000",
+            "reset": false,
+            "head": {
+                "shook_action": 4,
+                "shook_angle": 120,
+                "shook_speed": 1
+            },
+            "left_arm": {
+                "around_action": 4,
+                "around_angle": 90,
+                "around_speed": 1,
+                "side_action": 3,
+                "side_angle": 90,
+                "side_speed": 1
+            },
+            "right_arm": {
+                "around_action": 4,
+                "around_angle": 90,
+                "around_speed": 1,
+                "side_action": 3,
+                "side_angle": 90,
+                "side_speed": 1
+            },
+            "left_wheel": {
+                "action": 1,
+                "speed": 0,
+                "time":500
+            },
+            "right_wheel": {
+                "action": 1,
+                "speed": 0,
+                "time":500
+            }
+        }, {
+            "time": "00:21 000",
+            "reset": true,
+            "head": {
+                "reset_nod":true,
+                "reset_shook":true
+            },
+            "left_arm": {
+                "reset_side":true,
+                "reset_around": true
+            },
+            "right_arm": {
+                "reset_side":true,
+                "reset_around": true
+            },
+            "left_wheel": {
+                "reset_run":true
+            },
+            "right_wheel": {
+                "reset_run":true
+            } 
+        }
+    ]
+}
